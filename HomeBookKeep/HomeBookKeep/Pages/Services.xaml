@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="HomeBookKeep.Pages.Services"
+             Title="Сервисы">
+    <!--<Image WidthRequest="65" Aspect="AspectFit" Source="zemnoiShar.png" ></Image>-->
+    <ContentPage.Content>
+
+        <Grid x:Name="serviceGrid" Padding="3">
+            <Grid.RowDefinitions>
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+                <RowDefinition />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+
+            <Image Source="friendsWhite.png" WidthRequest="65" Grid.Row="1" Grid.Column="0" ></Image>
+            <Image Source="friends.png" WidthRequest="65"></Image>
+            <!--<Button Text="Счета" Grid.Row="0" Grid.Column="0" HorizontalOptions="Center" VerticalOptions="Center" />-->
+            <Button Image="friendsWhite.png" Grid.Row="0" Grid.Column="1" HorizontalOptions="Center" VerticalOptions="Center" />
+            <Label Text="Планирование расходов" Grid.Row="0" Grid.Column="2" HorizontalOptions="Center" VerticalOptions="Center" />
+            <!--<Label Text="Бюджет расходов" Grid.Row="1" Grid.Column="0" HorizontalOptions="Center" VerticalOptions="Center" />-->
+            <!--<Label Text="Доходы" Grid.Row="1" Grid.Column="1" HorizontalOptions="Center" VerticalOptions="Center" />-->
+            <ImageButton Source="friendsWhite.png" Grid.Row="1" Grid.Column="1" Clicked="ImageButton_Clicked" />
+            <Label Text="Планирование доходов" Grid.Row="1" Grid.Column="2" HorizontalOptions="Center" VerticalOptions="Center" />
+            <Label Text="Бюджет доходов" Grid.Row="2" Grid.Column="0" HorizontalOptions="Center" VerticalOptions="Center" />
+            <Label Text="Получено в кредит" Grid.Row="2" Grid.Column="1" HorizontalOptions="Center" VerticalOptions="Center" />
+            <Label Text="Выдано в долг" Grid.Row="2" Grid.Column="2" HorizontalOptions="Center" VerticalOptions="Center" />
+            <Label Text="Выдано в долг" Grid.Row="3" Grid.Column="0" HorizontalOptions="Center" VerticalOptions="Center" />
+            <Label Text="Выдано в долг" Grid.Row="3" Grid.Column="1" HorizontalOptions="Center" VerticalOptions="Center" />
+            <Label Text="Выдано в долг" Grid.Row="3" Grid.Column="2" HorizontalOptions="Center" VerticalOptions="Center" />
+            <Label Text="Выдано в долг" Grid.Row="4" Grid.Column="0" HorizontalOptions="Center" VerticalOptions="Center" />
+            <Label Text="Выдано в долг" Grid.Row="4" Grid.Column="1" HorizontalOptions="Center" VerticalOptions="Center" />
+            <Label Text="Выдано в долг" Grid.Row="4" Grid.Column="2" HorizontalOptions="Center" VerticalOptions="Center" />
+            <Label Text="Выдано в долг" Grid.Row="2" Grid.Column="2" HorizontalOptions="Center" VerticalOptions="Center" />
+            <Label Text="Выдано в долг" Grid.Row="2" Grid.Column="2" HorizontalOptions="Center" VerticalOptions="Center" />
+        </Grid>
+    </ContentPage.Content>
+
+</ContentPage>

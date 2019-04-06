@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<MasterDetailPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:HomeBookKeep"
+             x:Class="HomeBookKeep.MainPage"
+             Title="Домашняя бухгалтерия">
+
+    <MasterDetailPage.Master>
+        <ContentPage Title="Мастер" BackgroundColor="#b9f6ca">
+            <ContentPage.Content>
+                <StackLayout Padding="5, 30, 5, 5">
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand">
+                        <Image Source="friends.png" WidthRequest="65" Aspect="AspectFit" />
+                        <Label Text="User" VerticalOptions="Center" />
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand">
+                        <Image Source="friends.png" WidthRequest="24" Aspect="AspectFit" />
+                        <Button Text="Счета" HorizontalOptions="FillAndExpand" Clicked="Button_Clicked" />
+                    </StackLayout>
+                </StackLayout>
+            </ContentPage.Content>
+        </ContentPage>
+    </MasterDetailPage.Master>
+
+</MasterDetailPage>
